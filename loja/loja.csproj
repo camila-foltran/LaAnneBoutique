@@ -50,7 +50,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>favicon %282%29.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bematech">
@@ -372,6 +372,7 @@
     <Content Include="bin\Debug\Vip.Printer.dll" />
     <Content Include="bin\UsbApi.dll" />
     <Content Include="favicon %282%29.ico" />
+    <Content Include="favicon.ico" />
     <Content Include="img\Adicionar32.png" />
     <Content Include="img\Caixa.jpg" />
     <Content Include="img\CaixaMenu.png" />
@@ -536,6 +537,7 @@
     <Content Include="img\Login.jpg" />
     <Content Include="img\Login32.png" />
     <Content Include="img\Login64.png" />
+    <None Include="img\Logo La Anne.jpeg" />
     <Content Include="img\LogoDivina1novo.bmp" />
     <Content Include="img\pesquisar.png" />
     <Content Include="img\salvar.jpg" />
