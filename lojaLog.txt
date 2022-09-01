@@ -1,0 +1,2 @@
+DATA: 19/06/2018 22:21:43 TELA: CADASTRO DE PRODUTOS - btnSalvar_Click -  ERRO: A instrução INSERT conflitou com a restrição do FOREIGN KEY "FK_tb_pro_produto_tb_cat_categoria". O conflito ocorreu no banco de dados "limavari", tabela "dbo.tb_cat_categoria", column 'cat_n_codigo'.
+A instrução foi finalizada. - LOJA: 1
