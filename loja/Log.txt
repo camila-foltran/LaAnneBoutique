@@ -1,0 +1,20 @@
+﻿DATA: 01/02/2019 10:13:53 TELA: Listagem Vendas - btnImprimirVenda_Click -  ERRO: Não é possível carregar a DLL 'MP2064.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E) - LOJA: 1
+DATA: 01/02/2019 10:24:01 TELA: Listagem Vendas - btnImprimirVenda_Click -  ERRO: Não é possível carregar a DLL 'MP2064.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E) - LOJA: 1
+DATA: 01/02/2019 10:29:21 TELA: Listagem Vendas - btnImprimirVenda_Click -  ERRO: Não é possível carregar a DLL 'MP2064.dll': Não foi possível encontrar o módulo especificado. (Exceção de HRESULT: 0x8007007E) - LOJA: 1
+DATA: 01/02/2019 15:12:35 TELA: VENDAS - ImprimirCupom(3152) -  ERRO: Erro ao iniciar porta: 0 - LOJA: 1
+DATA: 11/02/2019 12:54:53 TELA: VENDAS - CalculaValores() -  ERRO: A cadeia de caracteres de entrada não estava em um formato correto. - LOJA: 1
+DATA: 11/02/2019 12:54:53 TELA: VENDAS - txtValorRecebido_KeyDown -  ERRO: A cadeia de caracteres de entrada não estava em um formato correto. - LOJA: 1
+DATA: 12/02/2019 11:27:03 TELA: VENDAS - btnCadastrarVenda_Click -  ERRO: Objeto não pode ser convertido de DBNull em outros tipos. - LOJA: 1
+DATA: 14/02/2019 16:45:31 TELA: VENDAS - ImprimirCupom(4303) -  ERRO: Erro ao iniciar porta: 0 - LOJA: 1
+DATA: 20/06/2019 16:35:26 TELA: VENDAS - ImprimirCupom(4312) -  ERRO: Erro ao iniciar porta: 0 - LOJA: 1
+DATA: 16/12/2020 18:49:18 TELA: Estatisticas - CarregarDados() -  ERRO: Não foi possível encontrar o procedimento armazenado 'SP_VEN_L_LISTAR_VENDA_ANO_MES_DIVINA'. - LOJA: 1
+DATA: 16/12/2020 18:55:22 TELA: Estatisticas - CarregarDados() -  ERRO: Referência de objeto não definida para uma instância de um objeto. - LOJA: 1
+DATA: 16/12/2020 19:04:21 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: Não foi possível encontrar o procedimento armazenado 'SP_VEN_L_LISTAR_VENDA_PERIODO_MES_DIVINA'. - LOJA: 1
+DATA: 16/12/2020 19:06:17 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1
+DATA: 16/12/2020 19:07:24 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1
+DATA: 21/12/2020 11:56:49 TELA: LOGIN -  ERRO: Tempo Limite de Conexão Expirado. O tempo limite decorrido durante a fase pós-logon. A conexão expirou enquanto aguardava o servidor concluir o processo de logon e responder; ou talvez tenha expirado ao tentar criar várias conexões ativas.  A duração da tentativa de conexão com este servidor foi: [Pre-Login] initialization=2127; handshake=4257; [Login] initialization=41; authentication=314; [Post-Login] complete=7381;    em loja.Usuario.ObterLogin(Usuario objUsuario) na C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\Classes\Usuario.cs:linha 227
+   em loja.frmLogin.btnEntrar_Click(Object sender, EventArgs e) na C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\frmLogin.cs:linha 46 - LOJA: 1
+DATA: 21/12/2020 12:05:25 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1
+DATA: 08/03/2021 17:01:40 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1
+DATA: 08/03/2021 17:01:58 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1
+DATA: 09/04/2021 16:53:28 TELA: Estatisticas - rgvTotais_CellContentClick -  ERRO: A coluna 'DINHEIRO' não pertence à tabela Table. - LOJA: 1

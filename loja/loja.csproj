@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CC03A7D-BE51-417D-A4C8-B6666B643965}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>loja</RootNamespace>
+    <AssemblyName>loja</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon %282%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bematech">
+      <HintPath>C:\Users\camila.foltran\Documents\bematechflashbuilder\Bematech.dll</HintPath>
+    </Reference>
+    <Reference Include="Bematech.MiniImpressoras">
+      <HintPath>C:\Users\camila.foltran\Documents\bematechflashbuilder\Bematech.MiniImpressoras.dll</HintPath>
+    </Reference>
+    <Reference Include="Bematech.Perifericos">
+      <HintPath>C:\Users\camila.foltran\Documents\bematechflashbuilder\Bematech.Perifericos.dll</HintPath>
+    </Reference>
+    <Reference Include="Bematech.Relatorios">
+      <HintPath>C:\Users\camila.foltran\Documents\bematechflashbuilder\Bematech.Relatorios.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\camila.foltran\Documents\Projetos Tafner\Avanzi\WebSite1\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Projetos Tafner\Avanzi\WebSite1\Bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51205.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Projetos Tafner\Avanzi\WebSite1\Bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TafnerUtility">
+      <HintPath>..\..\..\Visual Studio 2012\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\TafnerUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Vip.Printer, Version=1.0.19.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Vip.Printer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Caixa.cs" />
+    <Compile Include="Classes\Categoria.cs" />
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Comprovante.cs" />
+    <Compile Include="Classes\Elgin.cs" />
+    <Compile Include="Classes\Estoque.cs" />
+    <Compile Include="Classes\Fabricante.cs" />
+    <Compile Include="Classes\Loja.cs" />
+    <Compile Include="Classes\MP2064.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\FormaPagto.cs" />
+    <Compile Include="Classes\FormaPagtoTroca.cs" />
+    <Compile Include="Classes\FormaPagtoVenda.cs" />
+    <Compile Include="frmAlteraSenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlteraSenha.Designer.cs">
+      <DependentUpon>frmAlteraSenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente.Designer.cs">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCodigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCodigo.Designer.cs">
+      <DependentUpon>FrmCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompras.Designer.cs">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstatistica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstatistica.Designer.cs">
+      <DependentUpon>frmEstatistica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstoque.Designer.cs">
+      <DependentUpon>frmEstoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFabricante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFabricante.Designer.cs">
+      <DependentUpon>frmFabricante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFechamentoDia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFechamentoDia.Designer.cs">
+      <DependentUpon>frmFechamentoDia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListagemVendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListagemVendas.Designer.cs">
+      <DependentUpon>frmListagemVendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMarcasVendidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarcasVendidas.Designer.cs">
+      <DependentUpon>frmMarcasVendidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduto.Designer.cs">
+      <DependentUpon>frmProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProdutosVendidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProdutosVendidos.Designer.cs">
+      <DependentUpon>frmProdutosVendidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTroca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTroca.Designer.cs">
+      <DependentUpon>frmTroca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuario.Designer.cs">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVenda.Designer.cs">
+      <DependentUpon>frmVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ItemTroca.cs" />
+    <Compile Include="Classes\ItemVenda.cs" />
+    <Compile Include="frmVendasVendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendasVendedor.Designer.cs">
+      <DependentUpon>frmVendasVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="limavariDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>limavariDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\MP2032.cs" />
+    <Compile Include="Classes\Produto.cs" />
+    <Compile Include="Classes\Program.cs" />
+    <Compile Include="Nfe.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Troca.cs" />
+    <Compile Include="Classes\Usuario.cs" />
+    <Compile Include="Classes\Venda.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlteraSenha.resx">
+      <DependentUpon>frmAlteraSenha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCodigo.resx">
+      <DependentUpon>FrmCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompras.resx">
+      <DependentUpon>frmCompras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstatistica.resx">
+      <DependentUpon>frmEstatistica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstoque.resx">
+      <DependentUpon>frmEstoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFabricante.resx">
+      <DependentUpon>frmFabricante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFechamentoDia.resx">
+      <DependentUpon>frmFechamentoDia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListagemVendas.resx">
+      <DependentUpon>frmListagemVendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarcasVendidas.resx">
+      <DependentUpon>frmMarcasVendidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduto.resx">
+      <DependentUpon>frmProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProdutosVendidos.resx">
+      <DependentUpon>frmProdutosVendidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTroca.resx">
+      <DependentUpon>frmTroca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuario.resx">
+      <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVenda.resx">
+      <DependentUpon>frmVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendasVendedor.resx">
+      <DependentUpon>frmVendasVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="bin\Debug\loja.exe.config" />
+    <None Include="limavariDataSet.xsc">
+      <DependentUpon>limavariDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="limavariDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>limavariDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="limavariDataSet.xss">
+      <DependentUpon>limavariDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Anexos\ArquivoNFGerado\Venda_1230.txt" />
+    <Content Include="Anexos\QueryAlteracoesLoja.sql" />
+    <Content Include="bin\Debug\Bematech.dll" />
+    <Content Include="bin\Debug\Bematech.MiniImpressoras.dll" />
+    <Content Include="bin\Debug\Bematech.MiniImpressoras.xml" />
+    <Content Include="bin\Debug\Bematech.Perifericos.dll" />
+    <Content Include="bin\Debug\Bematech.Perifericos.xml" />
+    <Content Include="bin\Debug\Bematech.Relatorios.dll" />
+    <Content Include="bin\Debug\Bematech.Relatorios.xml" />
+    <Content Include="bin\Debug\Bematech.xml" />
+    <Content Include="bin\Debug\ElginCupom.dll" />
+    <Content Include="bin\Debug\loja.exe" />
+    <Content Include="bin\Debug\loja.pdb" />
+    <Content Include="bin\Debug\mp2032.dll" />
+    <Content Include="bin\Debug\mp2064.dll" />
+    <Content Include="bin\Debug\Vip.Printer.dll" />
+    <Content Include="bin\UsbApi.dll" />
+    <Content Include="favicon %282%29.ico" />
+    <Content Include="img\Adicionar32.png" />
+    <Content Include="img\Caixa.jpg" />
+    <Content Include="img\CaixaMenu.png" />
+    <Content Include="img\Cancelar.png" />
+    <Content Include="img\Cliente.png" />
+    <Content Include="img\Cliente2.png" />
+    <Content Include="img\Cliente32.png" />
+    <Content Include="img\Icone\abrir-processo.png" />
+    <Content Include="img\Icone\accept2.png" />
+    <Content Include="img\Icone\add-form.jpg" />
+    <Content Include="img\Icone\adicionar-processo-desabilitado.png" />
+    <Content Include="img\Icone\adicionar-processo.png" />
+    <Content Include="img\Icone\adicionar-volume-desabilitado.png" />
+    <Content Include="img\Icone\adicionar-volume.png" />
+    <Content Include="img\Icone\admnistrar-pastas-desabilitado.png" />
+    <Content Include="img\Icone\admnistrar-pastas.png" />
+    <Content Include="img\Icone\ajuda.png" />
+    <Content Include="img\Icone\alterasenha.png" />
+    <Content Include="img\Icone\arquivoNF.png" />
+    <Content Include="img\Icone\arquivoNF2.png" />
+    <Content Include="img\Icone\arquivoSemNF.png" />
+    <Content Include="img\Icone\atualizar.png" />
+    <Content Include="img\Icone\baixar-parcela.png" />
+    <Content Include="img\Icone\BolaAmarela.png" />
+    <Content Include="img\Icone\BolaAmarela2.png" />
+    <Content Include="img\Icone\BolaAzul.PNG" />
+    <Content Include="img\Icone\BolaAzul2.PNG" />
+    <Content Include="img\Icone\BolaCinza.png" />
+    <Content Include="img\Icone\BolaCinzaEscuro.png" />
+    <Content Include="img\Icone\BolaLaranja.png" />
+    <Content Include="img\Icone\BolaVerde.png" />
+    <Content Include="img\Icone\BolaVerde2.png" />
+    <Content Include="img\Icone\BolaVermelha.png" />
+    <Content Include="img\Icone\BolaVermelho2.png" />
+    <Content Include="img\Icone\calculadora.png" />
+    <Content Include="img\Icone\cancelaNota.png" />
+    <Content Include="img\Icone\contrato-desabilitado.png" />
+    <Content Include="img\Icone\contrato.png" />
+    <Content Include="img\Icone\copy.png" />
+    <Content Include="img\Icone\copyDesativado.png" />
+    <Content Include="img\Icone\correio.png" />
+    <Content Include="img\Icone\CriarOrca.png" />
+    <Content Include="img\Icone\dash-calendario-1.png" />
+    <Content Include="img\Icone\dash-calendario-2.png" />
+    <Content Include="img\Icone\deselecionatodos.png" />
+    <Content Include="img\Icone\download.png" />
+    <Content Include="img\Icone\email-desabilitado.png" />
+    <Content Include="img\Icone\email.png" />
+    <Content Include="img\Icone\etiqueta.png" />
+    <Content Include="img\Icone\Exame.png" />
+    <Content Include="img\Icone\Excel.png" />
+    <Content Include="img\Icone\Excluir.png" />
+    <Content Include="img\Icone\Filter.gif" />
+    <Content Include="img\Icone\filter.png" />
+    <Content Include="img\Icone\folder.png" />
+    <Content Include="img\Icone\followup.png" />
+    <Content Include="img\Icone\frequencia.png" />
+    <Content Include="img\Icone\frequencia2.png" />
+    <Content Include="img\Icone\frequencia3.png" />
+    <Content Include="img\Icone\frequencia4.png" />
+    <Content Include="img\Icone\gerarNotaDebito.png" />
+    <Content Include="img\Icone\grid-editar.png" />
+    <Content Include="img\Icone\grid-editardesabilitado.png" />
+    <Content Include="img\Icone\grid-excluir.png" />
+    <Content Include="img\Icone\grid-excluirdesabilitado.png" />
+    <Content Include="img\Icone\grid-libera-fatura-bloqueado.png" />
+    <Content Include="img\Icone\grid-libera-fatura-liberado.png" />
+    <Content Include="img\Icone\gridRelatorioResumo.png" />
+    <Content Include="img\Icone\HistoricoOrc.png" />
+    <Content Include="img\Icone\icoHelp.png" />
+    <None Include="img\Icone\Impressao16.png" />
+    <Content Include="img\Icone\lupa.png" />
+    <Content Include="img\Icone\menu-acesso.png" />
+    <Content Include="img\Icone\menu-art.png" />
+    <Content Include="img\Icone\menu-baixalote.png" />
+    <Content Include="img\Icone\menu-banco.png" />
+    <Content Include="img\Icone\menu-cadastros.png" />
+    <Content Include="img\Icone\menu-cargo.png" />
+    <Content Include="img\Icone\menu-catalogo.png" />
+    <Content Include="img\Icone\menu-categoria.png" />
+    <Content Include="img\Icone\menu-cidade.png" />
+    <Content Include="img\Icone\menu-consulta.png" />
+    <Content Include="img\Icone\menu-conta.png" />
+    <Content Include="img\Icone\menu-contaspagar.png" />
+    <Content Include="img\Icone\menu-contasreceber.png" />
+    <Content Include="img\Icone\menu-departamento.png" />
+    <Content Include="img\Icone\menu-dinheiro.png" />
+    <Content Include="img\Icone\menu-emissaoART.png" />
+    <Content Include="img\Icone\menu-engenheiro.png" />
+    <Content Include="img\Icone\menu-financeiro.png" />
+    <Content Include="img\Icone\menu-fluxocaixa.png" />
+    <Content Include="img\Icone\menu-formapagto.png" />
+    <Content Include="img\Icone\menu-fornecedor.png" />
+    <Content Include="img\Icone\menu-grupoclientes.png" />
+    <Content Include="img\Icone\menu-log.png" />
+    <Content Include="img\Icone\menu-movimento.png" />
+    <Content Include="img\Icone\menu-movimento2.png" />
+    <Content Include="img\Icone\menu-movimento3.png" />
+    <Content Include="img\Icone\menu-outorga.png" />
+    <Content Include="img\Icone\menu-parametro.png" />
+    <Content Include="img\Icone\menu-parametros.png" />
+    <Content Include="img\Icone\menu-perfil.png" />
+    <Content Include="img\Icone\menu-prestador.png" />
+    <Content Include="img\Icone\menu-prioridade.png" />
+    <Content Include="img\Icone\menu-produto.png" />
+    <Content Include="img\Icone\menu-proposta.png" />
+    <Content Include="img\Icone\menu-propostas.png" />
+    <Content Include="img\Icone\menu-relatorio-despesaloja.png" />
+    <Content Include="img\Icone\menu-relatorio-movimentofinanceiro.png" />
+    <Content Include="img\Icone\menu-relCliente.png" />
+    <Content Include="img\Icone\menu-relClientes.png" />
+    <Content Include="img\Icone\menu-relContato.png" />
+    <Content Include="img\Icone\menu-relGrupo.png" />
+    <Content Include="img\Icone\menu-relParceiro.png" />
+    <Content Include="img\Icone\menu-RelParceiro2.png" />
+    <Content Include="img\Icone\menu-relProposta.png" />
+    <Content Include="img\Icone\menu-relvendas.png" />
+    <Content Include="img\Icone\menu-reprovacao.png" />
+    <Content Include="img\Icone\menu-sair.png" />
+    <Content Include="img\Icone\menu-saldoatual.png" />
+    <Content Include="img\Icone\menu-servico.png" />
+    <Content Include="img\Icone\menu-tipo.png" />
+    <Content Include="img\Icone\menu-tramitacao.png" />
+    <Content Include="img\Icone\menu-transferencia.png" />
+    <Content Include="img\Icone\menu-usuario.png" />
+    <Content Include="img\Icone\menuRelatorio.png" />
+    <Content Include="img\Icone\paginaErro.jpg" />
+    <Content Include="img\Icone\pesquisar.png" />
+    <Content Include="img\Icone\popup-fechar.png" />
+    <Content Include="img\Icone\projeto.png" />
+    <Content Include="img\Icone\proposta-desabilitado.png" />
+    <Content Include="img\Icone\proposta.png" />
+    <Content Include="img\Icone\propostaServico.png" />
+    <Content Include="img\Icone\proposta_aprovado.png" />
+    <Content Include="img\Icone\proposta_pendente.png" />
+    <Content Include="img\Icone\proposta_reprovado.png" />
+    <Content Include="img\Icone\radio.png" />
+    <Content Include="img\Icone\relCorreio.png" />
+    <Content Include="img\Icone\RelmalaDireta.png" />
+    <Content Include="img\Icone\relProposta.png" />
+    <Content Include="img\Icone\selecionartodos.png" />
+    <Content Include="img\Icone\visualizarNotaDebito.png" />
+    <Content Include="img\Icone\visualizarNotaDebito2.png" />
+    <Content Include="img\Icone\voltar.png" />
+    <Content Include="img\Icone\voltar2.png" />
+    <Content Include="img\Icone\vrelat.png" />
+    <Content Include="img\Impressao32.png" />
+    <Content Include="img\Layout\AcoDespesaGrand.jpg" />
+    <Content Include="img\Layout\Chart-Bar.jpg" />
+    <Content Include="img\Layout\Chart-Line.jpg" />
+    <Content Include="img\Layout\Chart-Pizza.jpg" />
+    <Content Include="img\Layout\Charts.jpg" />
+    <Content Include="img\Layout\Email.png" />
+    <Content Include="img\Layout\fundo-passos.png" />
+    <Content Include="img\Layout\FundoEmail.png" />
+    <Content Include="img\Layout\FundoModalPopUp.png" />
+    <Content Include="img\Layout\FundoSubMenu.png" />
+    <Content Include="img\Layout\RelAno.jpg" />
+    <Content Include="img\Layout\RelMes.jpg" />
+    <Content Include="img\Layout\RelTarg.jpg" />
+    <Content Include="img\Layout\rodape.png" />
+    <Content Include="img\Login.jpg" />
+    <Content Include="img\Login32.png" />
+    <Content Include="img\Login64.png" />
+    <Content Include="img\LogoDivina1novo.bmp" />
+    <Content Include="img\pesquisar.png" />
+    <Content Include="img\salvar.jpg" />
+    <Content Include="img\Salvar.png" />
+    <Content Include="img\Troca32.png" />
+    <Content Include="img\Usuario.jpg" />
+    <Content Include="img\Usuario.png" />
+    <Content Include="img\UsuarioMenu.png" />
+    <Content Include="Log.txt" />
+    <None Include="Resources\Login32.png" />
+    <None Include="Resources\alterasenha.png" />
+    <None Include="Resources\menu-sair.png" />
+    <None Include="Resources\voltar.png" />
+    <None Include="Resources\voltar16.png" />
+    <None Include="Resources\voltar32.png" />
+    <None Include="Resources\accept2.png" />
+    <None Include="Resources\grid-excluir.png" />
+    <None Include="Resources\gerarNotaDebito.png" />
+    <None Include="Resources\menu-financeiro.png" />
+    <None Include="Resources\menu-relContato.png" />
+    <None Include="Resources\grid-libera-fatura-liberado.png" />
+    <None Include="Resources\menu-relParceiro.png" />
+    <None Include="Resources\Excluir.png" />
+    <Content Include="VersoesAtualizadas.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

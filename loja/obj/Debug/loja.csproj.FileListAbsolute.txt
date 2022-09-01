@@ -1,0 +1,425 @@
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\loja.exe.config
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\bin\Debug\TafnerUtility.dll
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.Form1.resources
+C:\Users\Lima Assistencia\Documents\Nova pasta\loja\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\loja.exe.config
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.exe
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.Form1.resources
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\loja.exe
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\camila.foltran\Documents\Nova pasta\loja\loja\obj\Debug\loja.menu.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\bin\Debug\loja.exe.config
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.Form1.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.menu.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\Lima Assistencia\Documents\Loja\loja\bin\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Loja\loja\bin\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\Lima Assistencia\Documents\Loja\loja\obj\Debug\loja.frmVenda.resources
+D:\teste\loja\bin\Debug\loja.exe.config
+D:\teste\loja\bin\Debug\loja.exe
+D:\teste\loja\bin\Debug\loja.pdb
+D:\teste\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\teste\loja\obj\Debug\loja.AboutBox1.resources
+D:\teste\loja\obj\Debug\loja.Form1.resources
+D:\teste\loja\obj\Debug\loja.frmCliente.resources
+D:\teste\loja\obj\Debug\loja.frmEstoque.resources
+D:\teste\loja\obj\Debug\loja.frmFechamentoDia.resources
+D:\teste\loja\obj\Debug\loja.frmLogin.resources
+D:\teste\loja\obj\Debug\loja.frmProduto.resources
+D:\teste\loja\obj\Debug\loja.frmVenda.resources
+D:\teste\loja\obj\Debug\loja.MDIParent1.resources
+D:\teste\loja\obj\Debug\loja.menu.resources
+D:\teste\loja\obj\Debug\loja.Properties.Resources.resources
+D:\teste\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+D:\teste\loja\obj\Debug\loja.exe
+D:\teste\loja\obj\Debug\loja.pdb
+D:\teste\loja\obj\Debug\loja.frmFabricante.resources
+D:\teste\loja\obj\Debug\loja.frmTroca.resources
+E:\teste\loja\bin\Debug\loja.exe.config
+E:\teste\loja\bin\Debug\loja.exe
+E:\teste\loja\bin\Debug\loja.pdb
+E:\teste\loja\obj\Debug\loja.AboutBox1.resources
+E:\teste\loja\obj\Debug\loja.Form1.resources
+E:\teste\loja\obj\Debug\loja.frmCliente.resources
+E:\teste\loja\obj\Debug\loja.frmEstoque.resources
+E:\teste\loja\obj\Debug\loja.frmFabricante.resources
+E:\teste\loja\obj\Debug\loja.frmFechamentoDia.resources
+E:\teste\loja\obj\Debug\loja.frmLogin.resources
+E:\teste\loja\obj\Debug\loja.frmProduto.resources
+E:\teste\loja\obj\Debug\loja.frmTroca.resources
+E:\teste\loja\obj\Debug\loja.frmVenda.resources
+E:\teste\loja\obj\Debug\loja.MDIParent1.resources
+E:\teste\loja\obj\Debug\loja.menu.resources
+E:\teste\loja\obj\Debug\loja.Properties.Resources.resources
+E:\teste\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+E:\teste\loja\obj\Debug\loja.exe
+E:\teste\loja\obj\Debug\loja.pdb
+D:\teste\loja\obj\Debug\loja.frmUsuario.resources
+E:\teste\loja\obj\Debug\loja.frmUsuario.resources
+E:\teste\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+D:\teste\loja\obj\Debug\loja.frmListagemVendas.resources
+E:\teste\loja\obj\Debug\loja.frmListagemVendas.resources
+D:\teste\loja\obj\Debug\loja.FrmCodigo.resources
+E:\teste\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\bin\Debug\loja.exe.config
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Novo\loja\bin\Debug\loja.exe
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.Form1.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.menu.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\Lima Assistencia\Documents\Novo\loja\bin\Debug\loja.pdb
+C:\Users\Lima Assistencia\Documents\Novo\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+D:\teste\loja\obj\Debug\loja.frmEstatistica.resources
+E:\teste\loja\obj\Debug\loja.frmEstatistica.resources
+D:\teste\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\Camila\Documents\loja\bin\Debug\loja.exe.config
+C:\Users\Camila\Documents\loja\obj\Debug\loja.exe
+C:\Users\Camila\Documents\loja\obj\Debug\loja.pdb
+C:\Users\Camila\Documents\loja\bin\Debug\loja.exe
+C:\Users\Camila\Documents\loja\bin\Debug\loja.pdb
+C:\Users\Camila\Documents\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\Camila\Documents\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.Form1.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.menu.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Camila\Documents\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\Camila\Documents\Loja-Centro\loja\bin\Debug\loja.exe.config
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.exe
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.pdb
+C:\Users\Camila\Documents\Loja-Centro\loja\bin\Debug\loja.exe
+C:\Users\Camila\Documents\Loja-Centro\loja\bin\Debug\loja.pdb
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.Form1.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.menu.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Camila\Documents\Loja-Centro\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\Camila\Documents\Loja-Shopping\loja\bin\Debug\loja.exe.config
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.exe
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.pdb
+C:\Users\Camila\Documents\Loja-Shopping\loja\bin\Debug\loja.exe
+C:\Users\Camila\Documents\Loja-Shopping\loja\bin\Debug\loja.pdb
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.Form1.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.menu.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Camila\Documents\Loja-Shopping\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+D:\Loja-Shopping\loja\bin\Debug\loja.exe.config
+D:\Loja-Shopping\loja\obj\Debug\loja.exe
+D:\Loja-Shopping\loja\obj\Debug\loja.pdb
+D:\Loja-Shopping\loja\bin\Debug\loja.exe
+D:\Loja-Shopping\loja\bin\Debug\loja.pdb
+D:\Loja-Shopping\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Loja-Shopping\loja\obj\Debug\loja.AboutBox1.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.Form1.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmCliente.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.FrmCodigo.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmEstatistica.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmEstoque.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmFabricante.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmFechamentoDia.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmListagemVendas.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmLogin.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmProduto.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmTroca.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmUsuario.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmVenda.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.MDIParent1.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.menu.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.Properties.Resources.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+F:\Loja-Shopping\loja\bin\Debug\loja.exe.config
+F:\Loja-Shopping\loja\obj\Debug\loja.exe
+F:\Loja-Shopping\loja\obj\Debug\loja.pdb
+F:\Loja-Shopping\loja\bin\Debug\loja.exe
+F:\Loja-Shopping\loja\bin\Debug\loja.pdb
+F:\Loja-Shopping\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+F:\Loja-Shopping\loja\obj\Debug\loja.AboutBox1.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.Form1.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmCliente.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.FrmCodigo.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmEstatistica.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmEstoque.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmFabricante.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmFechamentoDia.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmListagemVendas.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmLogin.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmProduto.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmTroca.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmUsuario.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.frmVenda.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.MDIParent1.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.menu.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.Properties.Resources.resources
+F:\Loja-Shopping\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+D:\Loja-Shopping\loja\obj\Debug\loja.frmAlteraSenha.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmVendasVendedor.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmProdutosVendidos.resources
+D:\Loja-Shopping\loja\obj\Debug\loja.frmMarcasVendidas.resources
+F:\Novo\loja\bin\Debug\loja.exe.config
+F:\Novo\loja\obj\Debug\loja.exe
+F:\Novo\loja\obj\Debug\loja.pdb
+F:\Novo\loja\bin\Debug\loja.exe
+F:\Novo\loja\bin\Debug\loja.pdb
+F:\Novo\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+F:\Novo\loja\obj\Debug\loja.AboutBox1.resources
+F:\Novo\loja\obj\Debug\loja.Form1.resources
+F:\Novo\loja\obj\Debug\loja.frmAlteraSenha.resources
+F:\Novo\loja\obj\Debug\loja.frmCliente.resources
+F:\Novo\loja\obj\Debug\loja.FrmCodigo.resources
+F:\Novo\loja\obj\Debug\loja.frmEstatistica.resources
+F:\Novo\loja\obj\Debug\loja.frmEstoque.resources
+F:\Novo\loja\obj\Debug\loja.frmFabricante.resources
+F:\Novo\loja\obj\Debug\loja.frmFechamentoDia.resources
+F:\Novo\loja\obj\Debug\loja.frmListagemVendas.resources
+F:\Novo\loja\obj\Debug\loja.frmLogin.resources
+F:\Novo\loja\obj\Debug\loja.frmMarcasVendidas.resources
+F:\Novo\loja\obj\Debug\loja.frmProduto.resources
+F:\Novo\loja\obj\Debug\loja.frmProdutosVendidos.resources
+F:\Novo\loja\obj\Debug\loja.frmTroca.resources
+F:\Novo\loja\obj\Debug\loja.frmUsuario.resources
+F:\Novo\loja\obj\Debug\loja.frmVenda.resources
+F:\Novo\loja\obj\Debug\loja.frmVendasVendedor.resources
+F:\Novo\loja\obj\Debug\loja.MDIParent1.resources
+F:\Novo\loja\obj\Debug\loja.menu.resources
+F:\Novo\loja\obj\Debug\loja.Properties.Resources.resources
+F:\Novo\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\loja.exe.config
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.exe
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\loja.exe
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.Form1.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmAlteraSenha.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmMarcasVendidas.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmProdutosVendidos.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.frmVendasVendedor.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.menu.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\camila.foltran\Documents\Loja-Centro\Novo\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\camila.foltran\Documents\LojaCentro\loja\bin\Debug\loja.exe.config
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.exe
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\LojaCentro\loja\bin\Debug\loja.exe
+C:\Users\camila.foltran\Documents\LojaCentro\loja\bin\Debug\loja.pdb
+C:\Users\camila.foltran\Documents\LojaCentro\loja\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.Form1.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmAlteraSenha.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmCompras.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmMarcasVendidas.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmProdutosVendidos.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.frmVendasVendedor.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.menu.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.csproj.GenerateResource.Cache
+C:\Users\camila.foltran\Documents\LojaCentro\loja\obj\Debug\loja.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe.config
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\bin\Debug\loja.pdb
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.csprojAssemblyReference.cache
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.Form1.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmAlteraSenha.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCompras.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmMarcasVendidas.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProdutosVendidos.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVendasVendedor.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.menu.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.GenerateResource.cache
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CopyComplete
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.exe
+C:\Users\User\Documents\LojaCentro\LojaCentro\loja\obj\Debug\loja.pdb
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe.config
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.pdb
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csprojAssemblyReference.cache
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.Form1.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmAlteraSenha.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCompras.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmMarcasVendidas.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProdutosVendidos.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVendasVendedor.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.menu.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.GenerateResource.cache
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CopyComplete
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.exe
+C:\Users\ivanb\Documents\LojaCentroElgin\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.pdb
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.AboutBox1.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.Form1.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmAlteraSenha.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCliente.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.FrmCodigo.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmCompras.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstatistica.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmEstoque.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFabricante.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmFechamentoDia.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmListagemVendas.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmLogin.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmMarcasVendidas.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProduto.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmProdutosVendidos.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmTroca.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmUsuario.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVenda.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.frmVendasVendedor.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.MDIParent1.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.menu.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.Properties.Resources.resources
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.GenerateResource.cache
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CoreCompileInputs.cache
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe.config
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.exe
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\bin\Debug\loja.pdb
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.AssemblyReference.cache
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.csproj.CopyComplete
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.exe
+C:\Users\Camila Lima\Documents\GitHub\LojaDivina\LojaCentroElgin\LojaCentro\LojaCentro\loja\obj\Debug\loja.pdb

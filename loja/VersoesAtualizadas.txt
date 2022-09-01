@@ -1,0 +1,67 @@
+﻿VERSÃO 1.2 
+1.ajuste no valor do fechamento do caixa (somente vendas com status 'A')
+2.pagamento em dinheiro salvava valor recebido na tabela forma pagto, corrigido para salvar valor recebido menos o valor do troco
+3.impressão de cupom - acrescentados tratamentos de erros na tela de vendas, e opção de reimprimir o cupom na listagem de vendas (por enqto so é possível reimprimir cupoms que não foram impressos na tela de venda) - ainda não finalizado
+4.listagem de vendas melhorada
+5.tela de vendas: preenchimento automático do valor recebido qdo forma de pagto diferente de dinheiro, pois esta dando diferença de centavos
+6.fechamento de caixa lista o valor registrado na abertura e o valor total das vendas em dinheiro
+7.tela de vendas tem uma verificação sobre o valor total da venda e os valores registrados nas formas de pagamento a fim de acabar com a diferença de valores.
+
+VERSÃO 1.3 -> ENTROU EM PRODUÇÃO DIA 27/05/2016
+1.Ajuste no sistema para funcionar para n lojas
+2.Ajuste na impressão de cupoms para qualquer modelo de impressora Bematech que utilize porta USB e dll MP2032.dll e obter dados dinâmicos da Loja (Nome, endereço, cnpj etc)
+3.Mensagem de confirmação de exclusão de produto
+4.Ajustes na tela de troca
+5.Salvar valor de custo do produto na tabela de item da venda
+6.Perfil administrador pode escolher a loja na tela de login
+
+VERSÃO 1.4 -> ENTROU EM PRODUÇÃO DIA 22/06/2016
+1.Correção do bug da tela de venda ao registrar formas de pagto parciais (dinheiro e cartão, cartão e cartão etc)
+2.Relatório de vendas
+3.Alteração de senha do usuário
+4.Menu Sair
+5.Total de pagto em dinheiro na listagem de vendas, não mostrava para loja 2
+6.Exclusão de movimento de estoque
+7.Não deixar excluir produto que possui venda ou troca vinculada (testar)
+8.Relatório de produtos mais vendidos
+9.Tratamento de erro na conversão de data na listagem de vendas
+10.Menu cadastros - cliente disponível para vendedor
+11.Ajuste na tela de vendas para facilitar a identificação do produto quando o mesmo tem a mesma referencia
+12.Relatório de marcas mais vendidas, mostrando o lucro (feito ajuste no desconto por item)
+
+VERSÃO 1.5 -> ENTROU EM PRODUÇÃO DIA 14/04/2018
+1.Ajuste para um mesmo projeto funcionar para as 2 impressoras: MP2032 (codigo 5) e MP2064 (codigo 8)
+2.Ajuste no cadastro de produto para um mesmo código permitir N tamanhos e cores (ajuste na chave na tabela de produto: tamanho e cor)
+3.Ajuste na tela de movimentos de estoque: mais recente por primeiro (proc SP_EST_L_LISTAR_ESTOQUE ->  ORDER BY PRO_C_NOME,EST_D_DATA desc)
+4.Ajuste no cadastro de produto, para qdo um produto já estiver cadastrado o sistema automaticamente faz a entrada no estoque (sem precisar sair do cadastro, pesquisar o produto em movimentos de estoque e fazer a entrada)
+5.Ajuste na tela de vendas: Seleção de produto pois agora 1 código pode ter mais de 1 produto
+6.Ajuste na visibilidade dos perfis vendedor e adm (adm vê relatórios)
+7.Relatório de compras mensais
+8.Menu Sair fecha totalmente a aplicação
+9.Formato moeda nas colunas do gridView
+
+
+VERSÃO 1.6 -> ENTROU EM PRODUÇÃO DIA
+1. Ajuste para impressora Elgin
+2.Ajuste para porta da impressora config. no app config
+
+VERSÃO 1.7 ->
+1. Ajuste no relatório de vendas
+2. Salvar comprovante de todas as vendas e não apenas qdo dá erro ao imprimir
+3. Impressão do total vendido detalhado vendas em dinheiro e no cartão
+
+---- arrumar código de todos os produtos vendidos na tabela item venda
+--- alterar perfil do usuario adm e criar um novo usuario adm
+/*LOJA-CENTRO = MP2032 (x86)
+LOJA-MERCADO MUNICIPAL = MP2064 (x64)*/
+
+Arrumar bug de produtos
+arrumar tela de troca
+fazer relatório de compras (produtos que precisam comprar)
+fazer relatório de formas de pagamento no mes (total a receber)
+fazer tela de anotações
+fazer tela de despesas
+fazer relatório de produtos q nunca foram vendidos
+
+SP_VEN_L_LISTAR_VENDA_ANO_MES -> proc q lista vendas por mes/ano
+
