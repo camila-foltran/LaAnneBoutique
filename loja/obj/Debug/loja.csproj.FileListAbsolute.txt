@@ -453,3 +453,7 @@ C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\obj\Debug\loja.csproj.
 C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\obj\Debug\loja.csproj.CopyComplete
 C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\obj\Debug\loja.exe
 C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\obj\Debug\loja.pdb
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\obj\Debug\loja.csproj.AssemblyReference.cache
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\bin\Debug\System.Drawing.Common.dll
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\bin\Debug\System.Drawing.Common.xml
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\loja\bin\Debug\CIDPrinter.dll

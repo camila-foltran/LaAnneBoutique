@@ -16,6 +16,7 @@ using Bematech.MiniImpressoras;
 using System.IO;
 using Vip.Printer;
 using Vip.Printer.Enums;
+using CIDPrinter;
 
 namespace loja
 {
@@ -676,7 +677,6 @@ namespace loja
         {
             try
             {
-
                 //declaração de variaveis para receber os parâmetros da formatação do texto, conforme as seleções no FORM
                 int item = 1;
                 int linhas = 8;
@@ -696,6 +696,11 @@ namespace loja
                 objComprovante.TextoComprovante = stb.ToString();
                 objComprovante.Status = "IMPRIMIR";
                 int intId = objComprovante.Inserir(objComprovante);
+
+                //obter nome da loja pra sair em negrito no cupom
+                DataTable dtLoja = new DataTable();
+                Loja objLoja = new Loja();
+                dtLoja = objLoja.Listar();
 
                 int iRetorno = 0;
 
@@ -814,17 +819,14 @@ namespace loja
                     iRetorno = MP2064.AcionaGuilhotina(0);
                     iRetorno = MP2064.FechaPorta();
                 }
-                else if (Utilitarios.ModeloImpressora == 10 || Utilitarios.ModeloImpressora == 11)//Elgin i9 ou nova rotina para Bematech
+                else if (Utilitarios.ModeloImpressora == 10 || Utilitarios.ModeloImpressora == 11 || Utilitarios.ModeloImpressora == 12)//Elgin i9 ou nova rotina para Bematech
                 {
-                    //obter o nome da loja pra colocar em negrito no cupom
-                    DataTable dtLoja = new DataTable();
-                    Loja objLoja = new Loja();
-                    dtLoja = objLoja.Listar();
-
                     var printer = new Printer(Utilitarios.strNomeImpressora, PrinterType.Epson);
 
                     if (Utilitarios.ModeloImpressora == 11)
                         printer = new Printer(Utilitarios.strNomeImpressora, PrinterType.Bematech);
+                    else if(Utilitarios.ModeloImpressora == 12)
+                        printer = new Printer(Utilitarios.strNomeImpressora, PrinterType.Daruma);
 
                     printer.AlignCenter();
                     printer.ExpandedMode(PrinterModeState.On);
@@ -843,6 +845,14 @@ namespace loja
                     printer.FullPaperCut();
 
                     printer.PrintDocument();
+                }
+                else if(Utilitarios.ModeloImpressora == 13)
+                {
+                    ICIDPrint cidPrinter = new CIDPrintiD();
+                    cidPrinter.Iniciar();
+                    cidPrinter.ImprimirFormatado(dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper() + "\n", false,false,true, true,false);
+                    cidPrinter.ImprimirFormatado(stb.ToString() + "\n", false, false, false, false);
+                    cidPrinter.AtivarGuilhotina(TipoCorte.TOTAL);
                 }
                 else //Elgin wind tp
                 {
@@ -922,13 +932,13 @@ namespace loja
 
                 StringBuilder stb = new StringBuilder();
                 //stb.Append("" + dtLoja.Rows[0]["loj_c_nome"].ToString() + "\n");
-                stb.Append("" + dtLoja.Rows[0]["loj_c_endereco"].ToString() + "\n");
-                stb.Append("CNPJ: " + dtLoja.Rows[0]["loj_c_cnpj"].ToString() + "\n");
-                stb.Append("IE: " + dtLoja.Rows[0]["loj_c_ie"].ToString() + "\n");
-                stb.Append("--------------------------------------------------\n");
-                stb.Append(DateTime.Now.ToString() + "                    COD: " + intCodigoVenda.ToString("000000") + "\n");
+                stb.Append(" " + dtLoja.Rows[0]["loj_c_endereco"].ToString() + "\n");
+                stb.Append(" CNPJ: " + dtLoja.Rows[0]["loj_c_cnpj"].ToString() + "\n");
+                stb.Append(" IE: " + dtLoja.Rows[0]["loj_c_ie"].ToString() + "\n");
+                stb.Append("------------------------------------------------\n");
+                stb.Append(" " + DateTime.Now.ToString() + "                 COD: " + intCodigoVenda.ToString("000000") + "\n");
                 stb.Append("      COMPROVANTE - NÃO É DOCUMENTO FISCAL       \n");
-                stb.Append("ITEM CÓDIGO        DESCRIÇÃO         QTD VALOR(R$)\n ");
+                stb.Append(" ITEM CÓDIGO       DESCRIÇÃO       QTD VALOR(R$)\n ");
 
 
                 DataSet dtItensVenda = new DataSet();
@@ -940,27 +950,27 @@ namespace loja
                 {
                     string strProduto = dr["Nome"].ToString();
 
-                    if (strProduto.Length > 18)
-                        strProduto = strProduto.Substring(0, 18);
+                    if (strProduto.Length > 16)
+                        strProduto = strProduto.Substring(0, 16);
 
                     string strCodigo = dr["Código"].ToString();
 
                     if (strCodigo.Length > 13)
                         strCodigo = dr["Referência"].ToString();
 
-                    stb.Append(item.ToString("00").PadRight(4) + strCodigo.PadRight(13) + " " + strProduto.PadRight(18) + " " + Convert.ToInt32(dr["Qtde"]).ToString("00").PadLeft(2) + " " + dr["Valor Total"].ToString().PadLeft(9) + "\n ");
+                    stb.Append(item.ToString("00").PadRight(5) + strCodigo.PadRight(12) + " " + strProduto.PadRight(16) + " " + Convert.ToInt32(dr["Qtde"]).ToString("00").PadLeft(2) + " " + dr["Valor Total"].ToString().PadLeft(9) + "\n ");
                     linhas++;
                     item++;
 
                 }
 
                 // stb.Append("--------------------------------------------------------\r\n");
-                stb.Append("TOTAL R$ " + dtItensVenda.Tables[1].Rows[0]["ven_n_total"].ToString().PadLeft(40, ' ') + "\n ");
+                stb.Append("TOTAL R$ " + dtItensVenda.Tables[1].Rows[0]["ven_n_total"].ToString().PadLeft(38, ' ') + "\n ");
                 linhas++;
 
                 if (Convert.ToDecimal(dtItensVenda.Tables[1].Rows[0]["ven_n_acrescimo"]) > 0)
                 {
-                    string strAcrescimo = dtItensVenda.Tables[1].Rows[0]["ven_n_acrescimo"].ToString().PadLeft(39, ' ');
+                    string strAcrescimo = dtItensVenda.Tables[1].Rows[0]["ven_n_acrescimo"].ToString().PadLeft(37, ' ');
                     stb.Append("ACRÉSCIMO " + strAcrescimo + "\n ");
                     linhas++;
                 }
@@ -968,7 +978,7 @@ namespace loja
                 if (Convert.ToDecimal(dtItensVenda.Tables[1].Rows[0]["ven_n_desconto"]) > 0)
                 {
                     string strDesconto = "-" + dtItensVenda.Tables[1].Rows[0]["ven_n_desconto"].ToString();
-                    stb.Append("DESCONTO " + strDesconto.PadLeft(40) + "\n ");
+                    stb.Append("DESCONTO " + strDesconto.PadLeft(38) + "\n ");
                     linhas++;
                 }
 
@@ -976,14 +986,14 @@ namespace loja
                 foreach (DataRow dr in dtItensVenda.Tables[2].Rows)
                 {
                     if (dr["FPG_C_DESCRICAO"].ToString().ToUpper() == "DINHEIRO")
-                        stb.Append(dr["FPG_C_DESCRICAO"].ToString().PadRight(39) + " " + txtValorRecebido.Text.ToString().PadLeft(9) + "\n ");
+                        stb.Append(dr["FPG_C_DESCRICAO"].ToString().PadRight(37) + " " + Convert.ToDecimal(txtValorRecebido.Text).ToString("C").Replace("R$","").PadLeft(9) + "\n ");
                     else
-                        stb.Append(dr["FPG_C_DESCRICAO"].ToString().PadRight(39) + " " + dr["FPV_N_VALOR"].ToString().PadLeft(9) + "\n ");
+                        stb.Append(dr["FPG_C_DESCRICAO"].ToString().PadRight(37) + " " + dr["FPV_N_VALOR"].ToString().PadLeft(9) + "\n ");
                     linhas++;
                 }
 
                 if (lblTroco.Text != "R$ 0,00")
-                    stb.Append("TROCO " + lblTroco.Text.Replace("R$", "").PadLeft(43, ' ') + "\n");
+                    stb.Append("TROCO " + lblTroco.Text.Replace("R$", "").PadLeft(41, ' ') + "\n");
 
                 linhas++;
                 stb.Append("Vend. " + lblVendedor.Text + "\n");

@@ -1,4 +1,5 @@
-﻿using Loja;
+﻿using CIDPrinter;
+using Loja;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -213,9 +214,13 @@ namespace loja
                     {
                         if (!string.IsNullOrEmpty(txtDataInicioImpressao.Text))
                             objVenda.DataInicio = Convert.ToDateTime(txtDataInicioImpressao.Text);
+                        else
+                            objVenda.DataInicio = DateTime.Now;
 
                         if (!string.IsNullOrEmpty(txtDataFimImpressao.Text))
                             objVenda.DataFim = Convert.ToDateTime(txtDataFimImpressao.Text);
+                        else
+                            objVenda.DataFim = DateTime.Now;
                     }
                     catch(Exception ex)
                     {
@@ -266,23 +271,23 @@ namespace loja
                 int iRetorno = 0;
 
                 //stb.Append(dtLoja.Rows[0]["loj_c_nome"].ToString() + "\r\n");
-                stb.Append(dtLoja.Rows[0]["loj_c_endereco"].ToString() + "\r\n");
-                stb.Append("CNPJ: " + dtLoja.Rows[0]["loj_c_cnpj"].ToString() + "\r\n");
-                stb.Append("IE: " + dtLoja.Rows[0]["loj_c_ie"].ToString() + "\r\n");
-                stb.Append("--------------------------------------------------\r\n");
+                stb.Append("   " + dtLoja.Rows[0]["loj_c_endereco"].ToString() + "\r\n");
+                stb.Append("   CNPJ: " + dtLoja.Rows[0]["loj_c_cnpj"].ToString() + "\r\n");
+                stb.Append("   IE: " + dtLoja.Rows[0]["loj_c_ie"].ToString() + "\r\n");
+                stb.Append("-----------------------------------------------\r\n");
 
                 if (Utilitarios.ModeloImpressora == 5)
                     iRetorno = MP2032.ComandoTX("\x1B\x61\x0", 3);
                 else if(Utilitarios.ModeloImpressora == 8 || Utilitarios.ModeloImpressora == 7)
                     iRetorno = MP2064.ComandoTX("\x1B\x61\x0", 3);
 
-                stb.Append("Total de vendas realizadas\r\n");
-                stb.Append("De: " + objVenda.DataInicio.ToShortDateString() + " a " + objVenda.DataFim.ToShortDateString() + "\r\n");
+                stb.Append("   Total de vendas realizadas\r\n");
+                stb.Append("   De: " + objVenda.DataInicio.ToShortDateString() + " a " + objVenda.DataFim.ToShortDateString() + "\r\n");
 
                 foreach(DataRow dr in dtVendas.Tables[0].Rows)
                 {
                     decTotalVendidoDia += Convert.ToDecimal(dr["TOTAL_VENDA"]);
-                    stb.Append(Convert.ToInt32(dr["DIA"]).ToString("00") + "/" + Convert.ToInt32(dr["MES"]).ToString("00") + "/" + Convert.ToInt32(dr["ANO"]).ToString("0000") + " - " + Convert.ToDecimal(dr["TOTAL_VENDA"]).ToString("C").PadLeft(11,' ') + "\r\n");
+                    stb.Append("   " + Convert.ToInt32(dr["DIA"]).ToString("00") + "/" + Convert.ToInt32(dr["MES"]).ToString("00") + "/" + Convert.ToInt32(dr["ANO"]).ToString("0000") + " - " + Convert.ToDecimal(dr["TOTAL_VENDA"]).ToString("C").PadLeft(11,' ') + "\r\n");
                 }
 
                 //separar vendas em dinheiro das vendas no cartão
@@ -315,13 +320,13 @@ namespace loja
                         decTotalCartao += (Convert.ToDecimal(dr["fpv_n_valor"]));
                 }
 
-                stb.Append("TOTAL DINHEIRO: " + decTotalDinheiro.ToString("C").PadLeft(8, ' ') + "\r\n");
-                stb.Append("TOTAL CARTÃO: " + decTotalCartao.ToString("C").PadLeft(10, ' ') + "\r\n");
-                stb.Append("TOTAL CARNÊ: " + decTotalCarne.ToString("C").PadLeft(11, ' ') + "\r\n");
-                stb.Append("TOTAL: " + decTotalVendidoDia.ToString("C").PadLeft(17, ' ') + "\r\n");
+                stb.Append("   TOTAL DINHEIRO: " + decTotalDinheiro.ToString("C").PadLeft(8, ' ') + "\r\n");
+                stb.Append("   TOTAL CARTÃO: " + decTotalCartao.ToString("C").PadLeft(10, ' ') + "\r\n");
+                stb.Append("   TOTAL CARNÊ: " + decTotalCarne.ToString("C").PadLeft(11, ' ') + "\r\n");
+                stb.Append("   TOTAL: " + decTotalVendidoDia.ToString("C").PadLeft(17, ' ') + "\r\n");
 
-                stb.Append("Data de impressão do recibo: " + DateTime.Now + "\r\n");
-                stb.Append("ASSINATURA DO VENDEDOR(A):\r\n\r\n___________________________________________ \r\n\r\n\r\n\r\n\r\n\r\n");
+                stb.Append("   Data de impressão: " + DateTime.Now + "\r\n");
+                stb.Append("   ASSINATURA DO VENDEDOR(A):\r\n\r\n________________________________________ \r\n\r\n\r\n\r\n\r\n\r\n");
 
                
                 //salvar em uma tabela os cupoms de vendas entregue ao shopping
@@ -370,6 +375,14 @@ namespace loja
                     printer.FullPaperCut();
 
                     printer.PrintDocument();
+                }
+                else if(Utilitarios.ModeloImpressora == 13)
+                {
+                    ICIDPrint cidPrinter = new CIDPrintiD();
+                    cidPrinter.Iniciar();
+                    cidPrinter.ImprimirFormatado("    " + dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper() + "\n", false, false, true, true, false);
+                    cidPrinter.ImprimirFormatado(stb.ToString() + "\n", false, false, false, false);
+                    cidPrinter.AtivarGuilhotina(TipoCorte.TOTAL);
                 }
                 else
                 {
@@ -525,7 +538,7 @@ namespace loja
                                 printer.CondensedMode(PrinterModeState.Off);
                                 printer.DoubleWidth2();
                                 printer.BoldMode(PrinterModeState.On);
-                                printer.WriteLine(dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper());
+                                printer.WriteLine("   " + dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper());
                                 printer.PrintDocument();
                                 printer.Clear();
 
@@ -537,6 +550,19 @@ namespace loja
                                 printer.FullPaperCut();
 
                                 printer.PrintDocument();
+                            }
+                            else if (Utilitarios.ModeloImpressora == 13)
+                            {
+                                //obter o nome da loja pra colocar em negrito no cupom
+                                DataTable dtLoja = new DataTable();
+                                Loja objLoja = new Loja();
+                                dtLoja = objLoja.Listar();
+
+                                ICIDPrint cidPrinter = new CIDPrintiD();
+                                cidPrinter.Iniciar();
+                                cidPrinter.ImprimirFormatado("     " + dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper() + "\n", false, false, true, true, false);
+                                cidPrinter.ImprimirFormatado(dtCupom.Rows[0]["COM_C_DESCRICAO"].ToString() + "\n", false, false, false, false);
+                                cidPrinter.AtivarGuilhotina(TipoCorte.TOTAL);
                             }
                             else
                             {

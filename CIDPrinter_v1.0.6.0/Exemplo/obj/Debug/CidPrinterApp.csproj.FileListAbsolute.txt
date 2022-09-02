@@ -1,0 +1,23 @@
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Debug\CIDPrinter.dll
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Debug\CidPrinterApp.exe.config
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Debug\CidPrinterApp.exe
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Debug\CidPrinterApp.pdb
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\WindowsFormsApp1.CidPrinterApp.resources
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.Properties.Resources.resources
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.csproj.GenerateResource.Cache
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.csproj.CoreCompileInputs.cache
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.exe
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.pdb
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Debug\CidPrinterApp.csprojResolveAssemblyReference.cache
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\bin\Debug\CIDPrinter.dll
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\bin\Debug\CidPrinterApp.exe.config
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\bin\Debug\CidPrinterApp.exe
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\bin\Debug\CidPrinterApp.pdb
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.csproj.AssemblyReference.cache
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\WindowsFormsApp1.CidPrinterApp.resources
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.Properties.Resources.resources
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.csproj.GenerateResource.cache
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.csproj.CoreCompileInputs.cache
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.csproj.CopyComplete
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.exe
+C:\Users\Camila Lima\Documents\GitHub\LaAnneBoutique\CIDPrinter_v1.0.6.0\Exemplo\obj\Debug\CidPrinterApp.pdb

@@ -1,0 +1,12 @@
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Release\CIDPrinter.dll
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Release\CidPrinterApp.exe.config
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Release\CidPrinterApp.exe
+C:\CID\projetos\idprint-dll\CidPrinterApp\bin\Release\CidPrinterApp.pdb
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\WindowsFormsApp1.CidPrinterApp.resources
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.Properties.Resources.resources
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.csproj.GenerateResource.Cache
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.csproj.CoreCompileInputs.cache
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.exe
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.pdb
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.csprojAssemblyReference.cache
+C:\CID\projetos\idprint-dll\CidPrinterApp\obj\Release\CidPrinterApp.csproj.CopyComplete
