@@ -35,6 +35,8 @@ namespace loja
                     //   marcasMaisVendidasToolStripMenuItem.Visible = false;
                     //  produtosMaisVendidosToolStripMenuItem.Visible = false;
                     relatóriosToolStripMenuItem.Visible = false;
+                    cadastrosToolStripMenuItem.Visible = false;
+                    vendasDiáriasToolStripMenuItem.Visible = false;
                     
                 }
             }

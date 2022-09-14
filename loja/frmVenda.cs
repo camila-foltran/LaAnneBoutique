@@ -850,7 +850,7 @@ namespace loja
                 {
                     ICIDPrint cidPrinter = new CIDPrintiD();
                     cidPrinter.Iniciar();
-                    cidPrinter.ImprimirFormatado(dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper() + "\n", false,false,true, true,false);
+                    cidPrinter.ImprimirFormatado("     " + dtLoja.Rows[0]["loj_c_nome"].ToString().ToUpper() + "\n", false,false,true, true,false);
                     cidPrinter.ImprimirFormatado(stb.ToString() + "\n", false, false, false, false);
                     cidPrinter.AtivarGuilhotina(TipoCorte.TOTAL);
                 }

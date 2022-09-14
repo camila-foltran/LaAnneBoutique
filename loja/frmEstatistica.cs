@@ -46,6 +46,25 @@ namespace loja
                 rgvAno.DataSource = dtAnos;
                 rgvAno.Columns["TOTAL"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
                 rgvAno.Columns["TOTAL"].DefaultCellStyle.Format = "C2";
+                rgvAno.Columns["TOTAL"].Width = 150;
+
+                //formatar grid
+                DataGridViewCellStyle estiloCelulaHeader = new DataGridViewCellStyle();
+                estiloCelulaHeader.Font = new System.Drawing.Font("Arial", 10, FontStyle.Bold);
+                estiloCelulaHeader.ForeColor = Color.DarkBlue;
+                this.rgvAno.ColumnHeadersDefaultCellStyle = estiloCelulaHeader;
+                this.rgvAno.DefaultCellStyle = estiloCelulaHeader;
+
+                DataGridViewCellStyle estiloCelula = new DataGridViewCellStyle();
+                estiloCelula.Font = new System.Drawing.Font("Arial", 10);
+                estiloCelula.ForeColor = Color.Black;
+                estiloCelula.BackColor = Color.White;
+                this.rgvAno.RowsDefaultCellStyle = estiloCelula;
+
+                DataGridViewCellStyle estiloCelulaAlternada = new DataGridViewCellStyle();
+                estiloCelulaAlternada.BackColor = Color.Gainsboro;
+                this.rgvAno.AlternatingRowsDefaultCellStyle = estiloCelulaAlternada;
+
 
                 decimal decTotal = 0;
                 foreach (DataRow dr in dtAnos.Rows)
@@ -56,7 +75,7 @@ namespace loja
                 lblTotal.Text = decTotal.ToString("C");
                 lblTitulo.Text = "Listagem de vendas";
                
-                FormatarGrid(rgvAno);
+                //FormatarGrid(rgvAno);
             }
             catch (Exception ex)
             {
@@ -145,12 +164,12 @@ namespace loja
                 rgvTotais.Columns["TOTAL_CUSTO"].Visible = false;
                 rgvTotais.Columns["TOTAL"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
                 rgvTotais.Columns["COMPRA"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
-                //rgvTotais.Columns["DINHEIRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
-                //rgvTotais.Columns["CARTÃO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
+                rgvTotais.Columns["DINHEIRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
+                rgvTotais.Columns["CARTÃO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
 
                 rgvTotais.Columns["TOTAL"].DefaultCellStyle.Format = "C2";
-                //rgvTotais.Columns["DINHEIRO"].DefaultCellStyle.Format = "C2";
-                //rgvTotais.Columns["CARTÃO"].DefaultCellStyle.Format = "C2";
+                rgvTotais.Columns["DINHEIRO"].DefaultCellStyle.Format = "C2";
+                rgvTotais.Columns["CARTÃO"].DefaultCellStyle.Format = "C2";
                 rgvTotais.Columns["COMPRA"].DefaultCellStyle.Format = "C2";
                 rgvTotais.Columns["LUCRO"].DefaultCellStyle.Format = "C2";
 
@@ -229,14 +248,14 @@ namespace loja
                         rgvTotalMes.Columns["TOTAL"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
                         rgvTotalMes.Columns["LUCRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
                         rgvTotalMes.Columns["COMPRA"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
-                        //rgvTotalMes.Columns["DINHEIRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
-                        //rgvTotalMes.Columns["CARTÃO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
+                        rgvTotalMes.Columns["DINHEIRO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
+                        rgvTotalMes.Columns["CARTÃO"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.BottomRight;
 
                         rgvTotalMes.Columns["TOTAL"].DefaultCellStyle.Format = "C2";
                         rgvTotalMes.Columns["LUCRO"].DefaultCellStyle.Format = "C2";
                         rgvTotalMes.Columns["COMPRA"].DefaultCellStyle.Format = "C2";
-                        //rgvTotalMes.Columns["DINHEIRO"].DefaultCellStyle.Format = "C2";
-                        //rgvTotalMes.Columns["CARTÃO"].DefaultCellStyle.Format = "C2";
+                        rgvTotalMes.Columns["DINHEIRO"].DefaultCellStyle.Format = "C2";
+                        rgvTotalMes.Columns["CARTÃO"].DefaultCellStyle.Format = "C2";
 
                         if (CodigoVendedor > 0)
                             rgvTotalMes.Columns["LUCRO"].Visible = false;

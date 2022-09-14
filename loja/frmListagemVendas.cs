@@ -111,7 +111,7 @@ namespace loja
 
                 decimal decTotalDinheiro = 0;
                 decimal decTotalCartao = 0;
-                decimal decTotalCarne = 0;
+                decimal decTotaLPix = 0;
                 decimal decTotalDesconto = 0;
 
                 Produto objProduto = new Produto();
@@ -123,17 +123,17 @@ namespace loja
                 if (drPagto.Length > 0)
                     strCodigoDinheiro = drPagto[0]["FPG_N_CODIGO"].ToString();
 
-                string strCodigoCarne = string.Empty;
-                drPagto = dtFormaPagto.Select("FPG_C_DESCRICAO = 'CARNÊ'");
+                string strCodigoPix = string.Empty;
+                drPagto = dtFormaPagto.Select("FPG_C_DESCRICAO = 'PIX'");
                 if (drPagto.Length > 0)
-                    strCodigoCarne = drPagto[0]["FPG_N_CODIGO"].ToString();
+                    strCodigoPix = drPagto[0]["FPG_N_CODIGO"].ToString();
 
                 foreach (DataRow dr in dtsVendas.Tables[1].Rows)
                 {
                     if (dr["fpv_fpg_n_codigo"].ToString() == strCodigoDinheiro)//pagto em dinheiro
                         decTotalDinheiro += (Convert.ToDecimal(dr["fpv_n_valor"]));
-                    else if(dr["fpv_fpg_n_codigo"].ToString() == strCodigoCarne)//pagto carnê
-                        decTotalCarne += (Convert.ToDecimal(dr["fpv_n_valor"]));
+                    else if(dr["fpv_fpg_n_codigo"].ToString() == strCodigoPix)//pagto pix
+                        decTotaLPix += (Convert.ToDecimal(dr["fpv_n_valor"]));
                     else
                         decTotalCartao += (Convert.ToDecimal(dr["fpv_n_valor"]));
                 }
@@ -169,9 +169,9 @@ namespace loja
 
                 lblTotalDinheiro.Text = decTotalDinheiro.ToString("C");
                 lblTotalCartao.Text = decTotalCartao.ToString("C");
-                lblTotalCarne.Text = decTotalCarne.ToString("C");
+                lblTotalPix.Text = decTotaLPix.ToString("C");
                 lblTotalDesconto.Text = decTotalDesconto.ToString("C");
-                lblTotal.Text = (decTotalCartao + decTotalDinheiro + decTotalCarne).ToString("C");
+                lblTotal.Text = (decTotalCartao + decTotalDinheiro + decTotaLPix).ToString("C");
 
             }
             catch(Exception ex)

@@ -326,7 +326,7 @@ namespace loja
                 StringBuilder stb = new StringBuilder();
 
                 stb.Append("select distinct year(ven_d_data) AS ANO, ");
-                stb.Append("SUM (ISNULL(VEN_N_TOTAL,0)) - SUM(ISNULL(VEN_N_DESCONTO,0)) + SUM(ISNULL(VEN_N_ACRESCIMO,0)) as Total ");
+                stb.Append("SUM (ISNULL(VEN_N_TOTAL,0)) - SUM(ISNULL(VEN_N_DESCONTO,0)) + SUM(ISNULL(VEN_N_ACRESCIMO,0)) as TOTAL ");
                 stb.Append("from tb_ven_venda  where ven_c_status  = 'A' ");
                 stb.Append("and ven_loj_n_codigo = " + Utilitarios.intCodigoLoja);
                 stb.Append("group by year(ven_d_data) order by year(ven_d_data)");
